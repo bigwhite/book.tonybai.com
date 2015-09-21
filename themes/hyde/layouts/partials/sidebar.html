@@ -3,23 +3,17 @@
     <div class="sidebar-about">
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
 
-	  <!--
       <p class="lead">
       {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
       </p>
-	  -->
     </div>
 
-	<!--
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
-      {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-      {{end}}
+      <li><a href="http://tonybai.com">Blog</a> </li>
+      <li><a href="http://tonybai.com/about">About Me</a> </li>
     </ul>
-	-->
 
-	<p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ .Now.Format "2006" }} <a href="{{ "/license/" | absURL }}">License</a><br/>
-          Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/spf13/hyde">Hyde</a>{{end}}</p>
+	<p>{{ with .Site.Params.copyright }}{{.}}{{ else }}Copyright &copy; {{ .Now.Format "2006" }} <a href="{{ "/license/" | absURL }}">License</a><br/>
+	Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/spf13/hyde">Hyde</a>{{end}}</p>
   </div>
 </div>
