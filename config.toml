@@ -5,5 +5,6 @@ title = "Tony Bai的开源书栈"
 theme = "hyde"
 
 [params]
-  themeColor = "theme-base-08" # for hyde theme
-  disqusShortname = "tony_bai"
+	description = "敏而好学，不耻写作"
+	themeColor = "theme-base-08" # for hyde theme
+	disqusShortname = "tony_bai"

@@ -1,11 +1,11 @@
 +++
+weight = 2
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "golang"]
 date = "2015-09-21T13:59:02+08:00"
 menu = "main"
 title = "License"
-
 +++
 
 ### Content license

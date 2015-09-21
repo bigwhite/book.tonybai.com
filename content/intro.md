@@ -1,11 +1,11 @@
 +++
+weight = 1
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "golang"]
 date = "2015-09-21T13:10:30+08:00"
 menu = "main"
 title = "我的开源书籍列表"
-
 +++
 
 名称 | 简介 | 更新时间
