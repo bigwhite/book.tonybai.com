@@ -1,3 +1,9 @@
 baseurl = "http://book.tonybai.com/"
 languageCode = "zh_CN"
 title = "Tony Bai的开源书栈"
+
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-08" # for hyde theme
+  disqusShortname = "tony_bai"
