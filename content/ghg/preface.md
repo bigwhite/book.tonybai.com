@@ -6,9 +6,10 @@ Tags = ["Development", "golang"]
 date = "2015-09-21T16:58:01+08:00"
 menu = "main"
 title = "前言"
+prev = ""
+next = "overview"
 
 +++
----
 
 ```
 package main

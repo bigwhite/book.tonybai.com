@@ -3,11 +3,28 @@
 		{{ partial "sidebar.html" . }}
 
 		<div class="content container">
+			{{ if (ne .Title "Golang Hacking Guide") }}
+				<h1>Golang Hacking Guide</h1>
+				<a href="http://book.tonybai.com/ghg/{{ .Params.prev }}">【上一页】</a>
+				<a href="http://book.tonybai.com/ghg/">【目录】</a>
+				<a href="http://book.tonybai.com/ghg/{{ .Params.next }}">【下一页】</a>
+				<hr />
+			{{ end }}
+
 			<div class="post">
 			 	<h1>{{ .Title }}</h1>
+			 <!--
 			  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+			 -->
 			      {{ .Content }}
 			</div>
+
+			{{ if (ne .Title "Golang Hacking Guide") }}
+				<a href="http://book.tonybai.com/ghg/{{ .Params.prev }}">【上一页】</a>
+				<a href="http://book.tonybai.com/ghg/">【目录】</a>
+				<a href="http://book.tonybai.com/ghg/{{ .Params.next }}">【下一页】</a>
+				<hr />
+			{{ end }}
 
 			{{ if (ne .Title "Golang Hacking Guide") and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
 				<h2>评论</h2>
