@@ -7,4 +7,4 @@ theme = "hyde"
 [params]
 	description = "敏而好学，不耻写作"
 	themeColor = "theme-base-08" # for hyde theme
-	disqusShortname = "tony_bai"
+	disqusShortname = "booktonybaicom"
