@@ -1,4 +1,4 @@
-	{{ partial "head.html" . }}
+	{{ partial "ghg/header.html" . }}
 	<body class="{{ .Site.Params.themeColor }}">
 		{{ partial "sidebar.html" . }}
 
@@ -9,13 +9,9 @@
 			      {{ .Content }}
 			</div>
 
-			<!--
-			{{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
-				<h2>Comments</h2>
+			{{ if (ne .Title "Golang Hacking Guide") and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+				<h2>评论</h2>
 				{{ partial "disqus" . }}
 			{{ end }}
-			-->
 		</div>
-
-  </body>
-</html>
+	{{ partial "ghg/footer.html" . }}
