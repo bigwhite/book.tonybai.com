@@ -4,8 +4,9 @@ Categories = ["Hugo"]
 Description = ""
 Tags = ["hugo"]
 date = "2015-09-21T16:58:01+08:00"
-menu = "main"
+menu = "gohugo-main"
 title = "Hugo使用指南"
+booktitle = "Hugo使用指南"
 
 +++
 ---

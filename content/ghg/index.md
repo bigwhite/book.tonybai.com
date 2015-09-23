@@ -4,7 +4,7 @@ Categories = ["Golang"]
 Description = ""
 Tags = ["golang", "go"]
 date = "2015-09-21T16:58:01+08:00"
-menu = "main"
+menu = "ghg-main"
 title = "Golang Hacking Guide"
 booktitle = "Golang Hacking Guide"
 

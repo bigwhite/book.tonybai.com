@@ -4,10 +4,11 @@ Categories = ["Hugo"]
 Description = ""
 Tags = ["hugo", "golang"]
 date = "2015-09-21T16:58:01+08:00"
-menu = "main"
+menu = "gohugo-main"
 title = "前言"
 prev = ""
 next = "intro"
+booktitle = "Hugo使用指南"
 
 +++
 
