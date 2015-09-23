@@ -1,8 +1,8 @@
 +++
 weight = 2
-Categories = ["Development", "GoLang"]
+Categories = ["Golang"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["go", "golang"]
 date = "2015-09-21T13:59:02+08:00"
 menu = "main"
 title = "License"

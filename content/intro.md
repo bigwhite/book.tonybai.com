@@ -1,8 +1,8 @@
 +++
 weight = 1
-Categories = ["Development", "GoLang"]
+Categories = ["Golang"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["go", "golang"]
 date = "2015-09-21T13:10:30+08:00"
 menu = "main"
 title = "我的开源书籍列表"
