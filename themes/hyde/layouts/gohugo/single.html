@@ -1,0 +1,34 @@
+	{{ partial "gohugo/header.html" . }}
+	<body class="{{ .Site.Params.themeColor }}">
+		{{ partial "sidebar.html" . }}
+
+		<div class="content container">
+			{{ if (ne .Title "Hugo使用指南") }}
+				<h1>Hugo使用指南</h1>
+				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.prev }}">【上一页】</a>
+				<a href="{{ .Site.BaseURL }}/ghg/">【目录】</a>
+				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.next }}">【下一页】</a>
+				<hr />
+			{{ end }}
+
+			<div class="post">
+			 	<h1>{{ .Title }}</h1>
+			 <!--
+			  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+			 -->
+			      {{ .Content }}
+			</div>
+
+			{{ if (ne .Title "Hugo使用指南") }}
+				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.prev }}">【上一页】</a>
+				<a href="{{ .Site.BaseURL }}/ghg/">【目录】</a>
+				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.next }}">【下一页】</a>
+				<hr />
+			{{ end }}
+
+			{{ if (ne .Title "Hugo使用指南") and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+				<h2>评论</h2>
+				{{ partial "disqus" . }}
+			{{ end }}
+		</div>
+	{{ partial "ghg/footer.html" . }}
