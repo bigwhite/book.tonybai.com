@@ -1,13 +1,14 @@
 +++
 weight = 101
-Categories = ["Development", "GoLang"]
+Categories = ["Golang"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["golang"]
 date = "2015-09-21T16:58:01+08:00"
 menu = "main"
 title = "前言"
 prev = ""
 next = "overview"
+booktitle = "Golang Hacking Guide"
 
 +++
 
