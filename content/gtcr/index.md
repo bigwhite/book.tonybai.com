@@ -5,7 +5,7 @@ Description = ""
 Tags = ["golang", "go"]
 date = "2015-09-21T16:58:01+08:00"
 menu = "gtcr-main"
-title = "Golang - The Complete Reference"
+title = "Golang的那些事儿"
 booktitle = "Golang - The Complete Reference"
 
 +++

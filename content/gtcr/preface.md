@@ -9,6 +9,7 @@ title = "前言"
 prev = ""
 next = "overview"
 booktitle = "Golang - The Complete Reference"
+displaynav = "true"
 
 +++
 
