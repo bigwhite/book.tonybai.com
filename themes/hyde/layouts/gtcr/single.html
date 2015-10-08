@@ -3,8 +3,8 @@
 		{{ partial "sidebar.html" . }}
 
 		<div class="content container">
-			{{ if (ne .Title "Golang Hacking Guide") }}
-				<h1>Golang Hacking Guide</h1>
+			{{ if (ne .Title "Golang - The Complete Reference") }}
+				<h1>Golang - The Complete Reference</h1>
 				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.prev }}">【上一页】</a>
 				<a href="{{ .Site.BaseURL }}/ghg/">【目录】</a>
 				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.next }}">【下一页】</a>
@@ -19,14 +19,14 @@
 			      {{ .Content }}
 			</div>
 
-			{{ if (ne .Title "Golang Hacking Guide") }}
+			{{ if (ne .Title "Golang - The Complete Reference") }}
 				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.prev }}">【上一页】</a>
 				<a href="{{ .Site.BaseURL }}/ghg/">【目录】</a>
 				<a href="{{ .Site.BaseURL }}/ghg/{{ .Params.next }}">【下一页】</a>
 				<hr />
 			{{ end }}
 
-			{{ if (ne .Title "Golang Hacking Guide") and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+			{{ if (ne .Title "Golang - The Complete Reference") and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
 				<h2>评论</h2>
 				{{ partial "disqus" . }}
 			{{ end }}

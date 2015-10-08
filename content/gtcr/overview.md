@@ -8,7 +8,7 @@ menu = "ghg-main"
 title = "概述"
 prev = ""
 next = ""
-booktitle = "Golang Hacking Guide"
+booktitle = "Golang - The Complete Reference"
 
 +++
 
